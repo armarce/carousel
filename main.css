@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    margin: 20px auto 0 auto;
+    position: relative;
+    width: 1280px;
+    height: 680px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    padding: 0;
+}
+
+ul li img{
+    width: 1280px;
+    height: 680px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#back, #next{
+    position: absolute;
+    top:45%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: chocolate;
+    opacity: 0.6;
+    cursor: pointer;
+    background-size: 40px;
+    background-position: center;
+
+}
+#back{
+    left:14px;
+    background-image: url('https://eu2.contabostorage.com/206b9c3284cb4dabafdf5bf6ec21e929:svg/arrow-left.svg');
+}
+
+#next{
+    right:14px;
+    background-image: url('https://eu2.contabostorage.com/206b9c3284cb4dabafdf5bf6ec21e929:svg/arrow-right.svg');
+}
+
+#back:hover, #next:hover, nav a:hover{
+    background-color: coral;
+}
+
+nav{
+    margin: 30px auto 0 auto;
+    width: 1280px;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.fade-in{
+    animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
