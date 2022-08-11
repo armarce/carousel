@@ -1,3 +1,3 @@
-# carousel CSS JS
+# Carousel CSS JS
 
 https://carousel-css-js.netlify.app/
